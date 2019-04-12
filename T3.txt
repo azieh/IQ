@@ -1,0 +1,4 @@
+Better is used in Version 2. 
+In Version 1, Entity Framework context creates SQL request by casting entity to list object. At this moment we create a call with all data inside a table with redundant information(select * from MyTable). After that, we call Count() method where we calculate the number of entities using local computer resources.
+In better, Version 2 we create an object of IQueryble<MyTable> where the call is not started. We can work on that object to tell Entity Framework what exactly we need.
+By start rows.Count() Entity Framework should call something like Select Count() From MyTable. That will happen much much faster than Version 1.

@@ -1,0 +1,3 @@
+At 8 it will return "Good morning"
+At 12 it will return "Good morning"
+At 16 it will return "Good evening"
