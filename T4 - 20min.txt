@@ -1,0 +1,1 @@
+We can use instruction of HttpContext.Current.Cache.Remove() of Current cache
