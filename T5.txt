@@ -1,0 +1,8 @@
+Clean code is a good programming practice. Following that rule is the logic of the code. The code will be better to maintain. It means by example from my practice:
+KISS - Keep it simple stupid. Divide logic between smaller functions.
+DRY - Do not repeat yourself. If it has more than once, it is a good time to create a function
+Avoid Pasta Code - it can be understood by itself. My current project was created by the Italian team. They do a lot of pasta in code. Classes for more than 5 thousand lines etc. I try to fix it all the time.
+Do not write code if you do not use it. Do not create it. Needs to look more globally in code.
+
+Keeping the names of variables.
+Do not overload information about variables. If we have information about the right side of the object, var is enough. If not, like method return type try to use object type instead var.
