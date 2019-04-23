@@ -8,7 +8,5 @@ namespace Task7.ExchangeRates
     {
         List<ExchangeRateViewModel> GetUsdAndEurExchangeRates();
         web_dis_rates GetRawExchangeRatesData();
-        XDocument ReadXmlData(string filePath);
-        web_dis_rates MapToModel(XDocument doc);
     }
 }

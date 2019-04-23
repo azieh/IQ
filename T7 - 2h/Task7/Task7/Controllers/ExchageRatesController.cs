@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using Task7.ExchangeRates;
 using Task7.Models;
+using Task7.Utility.XmlParser;
 
 namespace Task7.Controllers
 {
@@ -13,7 +14,8 @@ namespace Task7.Controllers
         [HttpGet]
         public JsonResult GetUsdAndEurExchangeRates()
         {
-            List<ExchangeRateViewModel> ratesList = new ExchangeRateLogic().GetUsdAndEurExchangeRates();
+            IXmlParser<web_dis_rates> xmlParser = new XmlParser<web_dis_rates>();
+            List<ExchangeRateViewModel> ratesList = new ExchangeRateLogic(xmlParser).GetUsdAndEurExchangeRates();
             return Json(ratesList, JsonRequestBehavior.AllowGet);
         }
     }
