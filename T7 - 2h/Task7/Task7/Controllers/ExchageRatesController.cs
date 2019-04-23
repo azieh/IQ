@@ -14,7 +14,7 @@ namespace Task7.Controllers
         [HttpGet]
         public JsonResult GetUsdAndEurExchangeRates()
         {
-            IXmlParser<web_dis_rates> xmlParser = new XmlParser<web_dis_rates>();
+            IXmlParser<web_dis_rates> xmlParser = new WebXmlParser<web_dis_rates>();
             List<ExchangeRateViewModel> ratesList = new ExchangeRateLogic(xmlParser).GetUsdAndEurExchangeRates();
             return Json(ratesList, JsonRequestBehavior.AllowGet);
         }
