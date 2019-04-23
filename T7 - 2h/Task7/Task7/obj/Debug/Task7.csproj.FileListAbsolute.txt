@@ -161,7 +161,6 @@ D:\ODataClient\IQ\T7 - 2h\Task7\Task7\bin\System.Web.WebPages.Deployment.xml
 D:\ODataClient\IQ\T7 - 2h\Task7\Task7\bin\System.Web.WebPages.Razor.xml
 D:\ODataClient\IQ\T7 - 2h\Task7\Task7\bin\System.Web.Optimization.xml
 D:\ODataClient\IQ\T7 - 2h\Task7\Task7\bin\Antlr3.Runtime.pdb
-D:\ODataClient\IQ\T7 - 2h\Task7\Task7\obj\Debug\Task7.csprojAssemblyReference.cache
 D:\ODataClient\IQ\T7 - 2h\Task7\Task7\obj\Debug\Task7.csproj.CoreCompileInputs.cache
 D:\ODataClient\IQ\T7 - 2h\Task7\Task7\obj\Debug\Task7.csproj.CopyComplete
 D:\ODataClient\IQ\T7 - 2h\Task7\Task7\obj\Debug\Task7.dll

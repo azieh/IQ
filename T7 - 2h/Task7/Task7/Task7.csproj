@@ -123,16 +123,15 @@
     <Compile Include="Controllers\ExchageRatesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="ExchangeRates\ExchangeRateLogic.cs" />
-    <Compile Include="ExchangeRates\IExchangeRateLogic.cs" />
+    <Compile Include="ExchangeRates\ExchangeRatesRetriever.cs" />
     <Compile Include="ExchangeRates\Web_dis_rates.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ExchangeRateViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utility\XmlParser\IXmlParser.cs" />
-    <Compile Include="Utility\XmlParser\WebXmlParser.cs" />
-    <Compile Include="Utility\XmlParser\XmlParser.cs" />
+    <Compile Include="Utility\FileProvider.cs" />
+    <Compile Include="Utility\XmlParserEx.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
